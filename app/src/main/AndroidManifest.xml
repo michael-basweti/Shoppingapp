@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.geekalex.shoppingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/download"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FlashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Login"
+            android:label="Customer Login" />
+        <activity
+            android:name=".SupermarketsRegister"
+            android:label="Supermarket Register" />
+        <activity
+            android:name=".SetupActivity"
+            android:label="Finish Account Setup" />
+        <activity
+            android:name=".AdminAccount"
+            android:label="Supermarket Account" />
+        <activity
+            android:name=".AdminLogin"
+            android:label="Supermarket Login" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Electronics"
+            android:label="Electronics" />
+        <activity
+            android:name=".Machinery"
+            android:label="Machinery" />
+        <activity
+            android:name=".Utensils"
+            android:label="Utensils" />
+        <activity
+            android:name=".Bread"
+            android:label="Bread and Cakes" />
+        <activity
+            android:name=".Grocery"
+            android:label="Grocery" />
+        <activity
+            android:name=".Cereals"
+            android:label="Cereals" />
+        <activity
+            android:name=".Snacks"
+            android:label="Snacks" />
+        <activity
+            android:name=".Bedding"
+            android:label="Bedding" />
+        <activity
+            android:name=".Funiture"
+            android:label="Bedding" />
+        <activity
+            android:name=".Elec_Retrieval"
+            android:label="Electronics" />
+        <activity
+            android:name=".Mac_Retrieval"
+            android:label="Mchinery" />
+        <activity
+            android:name=".Ut_Retrieval"
+            android:label="Utensils" />
+        <activity
+            android:name=".Bread_Retrieval"
+            android:label="Bread and Cakes" />
+        <activity
+            android:name=".Groc_Retrieval"
+            android:label="Grocery" />
+        <activity
+            android:name=".Cereal_Retrieval"
+            android:label="Cereals" />
+        <activity
+            android:name=".Snack_Retrieval"
+            android:label="Snacks" />
+        <activity
+            android:name=".Fun_Retrieval"
+            android:label="Furniture" />
+        <activity
+            android:name=".Bed_Retrieval"
+            android:label="Bedding" />
+        <activity
+            android:name=".Single"
+            android:label="Electronics" />
+        <activity
+            android:name=".Mac"
+            android:label="Machinery" />
+        <activity
+            android:name=".Bed"
+            android:label="Bedding" />
+        <activity
+            android:name=".Fun"
+            android:label="Furniture" />
+        <activity
+            android:name=".Cer"
+            android:label="Cereals" />
+        <activity
+            android:name=".Bre"
+            android:label="Bread and Cakes" />
+        <activity
+            android:name=".Sna"
+            android:label="Snacks" />
+        <activity
+            android:name=".Ut"
+            android:label="Utensils" />
+        <activity
+            android:name=".Groc"
+            android:label="Grocery" />
+        <activity android:name=".Post" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="Electronics" />
+        <activity
+            android:name=".DetailMac"
+            android:label="Machinery" />
+        <activity
+            android:name=".DetailBed"
+            android:label="Bedding" />
+        <activity
+            android:name=".DetailFurn"
+            android:label="Furniture" />
+        <activity
+            android:name=".DetailCer"
+            android:label="Cereal" />
+        <activity
+            android:name=".DeatailBread"
+            android:label="Bread and Cakes" />
+        <activity
+            android:name=".DetailSnack"
+            android:label="Snacks" />
+        <activity
+            android:name=".DetailUtensil"
+            android:label="Utensils" />
+        <activity
+            android:name=".DetailGroc"
+            android:label="Grocery" />
+        <activity
+            android:name=".DetailLoc"
+            android:label="Electronics" />
+        <activity
+            android:name=".Demac"
+            android:label="Machinery" />
+        <activity
+            android:name=".Debed"
+            android:label="Bedding" />
+        <activity
+            android:name=".Defun"
+            android:label="Bedding" />
+        <activity
+            android:name=".Decer"
+            android:label="Cereals" />
+        <activity
+            android:name=".Debre"
+            android:label="Bread and Cakes" />
+        <activity
+            android:name=".Desna"
+            android:label="Snacks" />
+        <activity
+            android:name=".Deut"
+            android:label="Utensil" />
+        <activity
+            android:name=".Degroc"
+            android:label="Grocery" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Commodities" />
+        <activity android:name=".HelpActivity"
+            android:label="Help"/>
+        <activity android:name=".AboutActivity"
+            android:label="AboutUs"></activity>
+    </application>
+
+</manifest>
